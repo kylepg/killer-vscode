@@ -1,0 +1,27 @@
+{
+    "name": "killer colors",
+    "displayName": "killer colors",
+    "description": "Greatest color theme of all time.",
+    "publisher": "kylepg",
+    "version": "1.0.0",
+    "icon": "logo.png",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "VSCode",
+        "Themes"
+    ],
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "killer colors",
+                "uiTheme": "vs-dark",
+                "path": "./theme/killer-colors.json"
+            }
+        ]
+    }
+}
